@@ -145,52 +145,27 @@ footer {
 
 /* Personaliza el estilo del contenedor de código */
 .highlight {
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  padding: 10px;
+  background-color: #272822;
+  border: 1px solid #272822;
+  padding: 5px 0 0 0;
   overflow: auto; /* Agrega una barra de desplazamiento si es necesario */
 }
 
 /* Personaliza el estilo de la tabla */
 .rouge-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 0;
+  margin: 5px;
 }
 
 /* Personaliza el estilo de las celdas */
 .gutter {
-  background-color: #ddd;
-  border-right: 1px solid #ccc;
-  padding: 0 10px;
-  text-align: right;
-  font-weight: bold; /* Hace que los números de línea sean más visibles */
+  background-color: #272822;
+  border-right: 1px solid #616161;
+  padding: 0 5px 0 0;
+  text-align: center;
 }
 
-.code {
-  padding-left: 10px;
-  line-height: 1.4; /* Ajusta el espaciado entre líneas según tus preferencias */
-}
-
-.lineno {
-  color: #888;
-}
-
-/* Agrega estilos para resaltar palabras clave, nombres de funciones, etc. según tus preferencias */
-.k {
-  color: #00f;
-}
-
-.nf {
-  color: #000;
-}
-
-.nb {
-  color: #00a;
-}
-
-.s1 {
-  color: #a11;
+td.code {
+  padding-left: 15px;
 }
 
 /* Estilos generales sin cambios */
@@ -245,7 +220,8 @@ footer {
     left: auto;
     margin: 0 auto;
   }
-} /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+}
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -278,7 +254,7 @@ b, strong {
   font-weight: bolder;
 }
 
-code, kbd, samp {
+kbd, samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
@@ -342,7 +318,6 @@ legend {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: inherit;
-  display: table;
   max-width: 100%;
   padding: 0;
   white-space: normal;
@@ -464,10 +439,6 @@ button {
   outline: 0;
 }
 
-pre {
-  overflow: auto;
-}
-
 button, input, optgroup, select, textarea {
   font-family: inherit;
 }
@@ -480,7 +451,7 @@ button, input, optgroup, select, textarea {
   display: none !important;
 }
 
-blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, td, th, ul {
+blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, th, ul {
   margin: 0;
   padding: 0;
 }
@@ -657,10 +628,6 @@ abbr, abbr[title] {
   text-decoration: none;
 }
 
-figure {
-  margin: 0;
-}
-
 kbd {
   margin: 0;
   padding: 0.125rem 0.25rem 0;
@@ -759,24 +726,6 @@ ol.no-bullet, ul.no-bullet {
   .hide-for-print {
     display: none !important;
   }
-  table.show-for-print {
-    display: table !important;
-  }
-  thead.show-for-print {
-    display: table-header-group !important;
-  }
-  tbody.show-for-print {
-    display: table-row-group !important;
-  }
-  tr.show-for-print {
-    display: table-row !important;
-  }
-  td.show-for-print {
-    display: table-cell !important;
-  }
-  th.show-for-print {
-    display: table-cell !important;
-  }
   a, a:visited {
     text-decoration: underline;
   }
@@ -793,10 +742,7 @@ ol.no-bullet, ul.no-bullet {
     border: 1px solid #8a8a8a;
     page-break-inside: avoid;
   }
-  thead {
-    display: table-header-group;
-  }
-  img, tr {
+  img {
     page-break-inside: avoid;
   }
   img {
@@ -1067,7 +1013,6 @@ select {
   font-weight: 400;
   line-height: 1.5;
   color: #0a0a0a;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>");
   background-origin: content-box;
   background-position: right -1rem center;
   background-repeat: no-repeat;
@@ -1079,11 +1024,6 @@ select {
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out, -webkit-box-shadow 0.5s;
 }
 
-@media screen and (min-width: 0\0 ) {
-  select {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNrEkckNgDAMBBfRkEt0ObRBBdsGXUDgmQfK4XhH2m8czQAAy27R3tsw4Qfe2x8uOO6oYLb6GlOor3GF+swURAOmUJ+RwtEJs9WvTGEYxBXqI1MQAZhCfUQKRzDMVj+TwrAIV6jvSUEkYAr1LSkcyTBb/V+KYfX7xAeusq3sLDtGH3kEGACPWIflNZfhRQAAAABJRU5ErkJggg==);
-  }
-}
 select:focus {
   outline: 0;
   border: 1px solid #8a8a8a;
@@ -1163,7 +1103,6 @@ select[multiple] {
 }
 
 .clearfix::after, .clearfix::before {
-  display: table;
   content: " ";
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -1871,7 +1810,6 @@ a.button:focus, a.button:hover {
 }
 
 .button-group::after, .button-group::before {
-  display: table;
   content: " ";
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -3335,7 +3273,6 @@ input:checked + label > .switch-inactive {
 }
 
 .breadcrumbs::after, .breadcrumbs::before {
-  display: table;
   content: " ";
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -3385,7 +3322,6 @@ input:checked + label > .switch-inactive {
 }
 
 .pagination::after, .pagination::before {
-  display: table;
   content: " ";
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -4078,7 +4014,6 @@ input:checked + label > .switch-inactive {
 }
 
 .tabs::after, .tabs::before {
-  display: table;
   content: " ";
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -4477,100 +4412,9 @@ html.is-reveal-open body {
   position: fixed;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 1rem;
-  border-radius: 3px;
-}
-
-tbody, tfoot, thead {
-  border: 1px solid #f1f1f1;
-  background-color: #fefefe;
-}
-
 caption {
   padding: 0.5rem 0.625rem 0.625rem;
   font-weight: 700;
-}
-
-thead {
-  background: #f8f8f8;
-  color: #0a0a0a;
-}
-
-tfoot {
-  background: #f1f1f1;
-  color: #0a0a0a;
-}
-
-tfoot tr, thead tr {
-  background: 0 0;
-}
-
-tfoot td, tfoot th, thead td, thead th {
-  padding: 0.5rem 0.625rem 0.625rem;
-  font-weight: 700;
-  text-align: left;
-}
-
-tbody td, tbody th {
-  padding: 0.5rem 0.625rem 0.625rem;
-}
-
-tbody tr:nth-child(even) {
-  border-bottom: 0;
-  background-color: #f1f1f1;
-}
-
-table.unstriped tbody {
-  background-color: #fefefe;
-}
-
-table.unstriped tbody tr {
-  border-bottom: 0;
-  border-bottom: 1px solid #f1f1f1;
-  background-color: #fefefe;
-}
-
-@media screen and (max-width: 63.99875em) {
-  table.stack thead {
-    display: none;
-  }
-  table.stack tfoot {
-    display: none;
-  }
-  table.stack td, table.stack th, table.stack tr {
-    display: block;
-  }
-  table.stack td {
-    border-top: 0;
-  }
-}
-table.scroll {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
-}
-
-table.hover thead tr:hover {
-  background-color: #f3f3f3;
-}
-
-table.hover tfoot tr:hover {
-  background-color: #ececec;
-}
-
-table.hover tbody tr:hover {
-  background-color: #f9f9f9;
-}
-
-table.hover:not(.unstriped) tr:nth-of-type(even):hover {
-  background-color: #ececec;
-}
-
-.table-scroll {
-  overflow-x: auto;
 }
 
 .badge {
@@ -4890,10 +4734,6 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 .orbit-slide.no-motionui.is-active {
   top: 0;
   left: 0;
-}
-
-.orbit-figure {
-  margin: 0;
 }
 
 .orbit-image {

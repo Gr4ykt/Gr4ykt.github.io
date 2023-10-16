@@ -14,8 +14,15 @@ Proin nibh nisl condimentum id venenatis a. Arcu dui vivamus arcu felis bibendum
 
 Lacus luctus accumsan tortor posuere ac ut. Nulla porttitor massa id neque aliquam vestibulum morbi. Eleifend mi in nulla posuere sollicitudin aliquam. Tellus in metus vulputate eu. Purus sit amet luctus venenatis lectus magna fringilla. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Eget magna fermentum iaculis eu non diam. Velit laoreet id donec ultrices tincidunt arcu. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Aliquam purus sit amet luctus venenatis. Diam maecenas ultricies mi eget mauris pharetra. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Turpis cursus in hac habitasse platea. Elementum integer enim neque volutpat ac tincidunt vitae semper. Tempus quam pellentesque nec nam aliquam sem et. Tortor aliquam nulla facilisi cras. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Ipsum faucibus vitae aliquet nec ullamcorper. Vivamus at augue eget arcu dictum varius duis at consectetur. Id velit ut tortor pretium viverra suspendisse potenti.
 
-```ruby
+{% highlight ruby linenos %}
 def foo
   puts 'foo'
 end
-```
+{% endhighlight %}
+Este es el codigo y creo que se ve bien:
+{% highlight python linenos %}
+def hello():
+  print("Hola mundo")
+hello()
+{% endhighlight %}
+Aqui va mas texto

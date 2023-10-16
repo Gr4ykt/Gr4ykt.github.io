@@ -145,51 +145,23 @@ footer {
 
 /* Personaliza el estilo del contenedor de código */
 .highlight {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 10px;
+    background-color: #272822;
+    border: 1px solid #272822;
+    padding: 5px 0 0 0;
     overflow: auto; /* Agrega una barra de desplazamiento si es necesario */
   }
   
   /* Personaliza el estilo de la tabla */
   .rouge-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0;
+    margin: 5px;
   }
   
   /* Personaliza el estilo de las celdas */
   .gutter {
-    background-color: #ddd;
-    border-right: 1px solid #ccc;
-    padding: 0 10px;
-    text-align: right;
-    font-weight: bold; /* Hace que los números de línea sean más visibles */
+    background-color: #272822;
+    border-right: 1px solid #616161;
+    padding: 0 5px 0 0;
+    text-align: center;
+  }td.code{
+    padding-left: 15px;
   }
-  
-  .code {
-    padding-left: 10px;
-    line-height: 1.4; /* Ajusta el espaciado entre líneas según tus preferencias */
-  }
-  
-  .lineno {
-    color: #888;
-  }
-  
-  /* Agrega estilos para resaltar palabras clave, nombres de funciones, etc. según tus preferencias */
-  .k {
-    color: #00f;
-  }
-  
-  .nf {
-    color: #000;
-  }
-  
-  .nb {
-    color: #00a;
-  }
-  
-  .s1 {
-    color: #a11;
-  }
-  
