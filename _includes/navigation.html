@@ -1,0 +1,15 @@
+<nav>
+    <h1 class="title-page"><a href="/">{{ page.title }}</a></h1>
+    <ul class="horizontal-list">
+        {% for item in site.data.navigation %}
+        <li class="horizontal-item">
+            <a href="{{ item.link }}">
+                {{ item.name }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
+
+
+
