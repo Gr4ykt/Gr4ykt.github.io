@@ -1,9 +1,10 @@
-/* Estilos generales sin cambios */
 
-/* Para pantallas más pequeñas, como dispositivos móviles */
-@media screen and (max-width: 768px) {
+  
+  
+  /* NUEVOS Y PRUEBAS */
+  @media screen and (max-width:360px){
     .body-main {
-      font-size: 14px; /* Reducir el tamaño de fuente */
+      font-size: 14px;
     }
   
     hr {
@@ -12,49 +13,468 @@
     }
     
     nav {
-        display: block; /* Cambiar a un diseño de bloque en lugar de flex */
+        display: block;
         text-align: center;
     }
   
     nav a {
-      margin: 5px 0; /* Añadir margen vertical en lugar de horizontal */
+      margin: 5px 0;
     }
 
     li a{
         font-size: 25px;
     }
   
+    .profile-img{
+      border-radius: 50%;
+      width: 280px;
+      height: 280px;
+      margin: 0 0 0 0;
+  }
+    div a img {
+      width: 60px;
+      height: 60px;
+      margin: 5px 10px 0 0;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
     .profile {
-      width: 100%; /* Ocupar todo el ancho disponible */
+      width: 100%; 
       text-align: center;
     }
   
     .main {
-      width: 100%; /* Ocupar todo el ancho disponible */
+      width: 100%; 
       padding-right: 5%;
       padding-left: 5%;
     }
   
     .mov-text {
-      font-size: 18px; /* Reducir el tamaño de fuente */
+      font-size: 18px;
     }
+} 
+
+@media screen and (max-width:411px){
+  .body-main {
+    font-size: 14px;
+  }
+
+  hr {
+      width: 90%;
+      text-align: center;
   }
   
-  /* Para pantallas medianas, como tabletas */
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .body-main {
-      font-size: 15px; /* Ajustar el tamaño de fuente */
-    }
-  
-    .profile {
-      width: 30%; /* Utilizar un ancho fijo para la barra lateral */
-    }
-  
-    .main {
-      width: 70%; /* Ajustar el ancho del contenido principal */
-    }
+  nav {
+      display: block;
+      text-align: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  li a{
+      font-size: 25px;
+  }
+
+  .profile-img{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin: 0 0 0 0;
+}
+  div a img {
+    width: 60px;
+    height: 60px;
+    margin: 5px 10px 0 0;
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+
+  .profile {
+    width: 100%; 
+    text-align: center;
+  }
+
+  .main {
+    width: 100%; 
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .mov-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:414px){
+  .body-main {
+    font-size: 14px;
+  }
+
+  hr {
+      width: 90%;
+      text-align: center;
   }
   
-  /* Estilos generales sin cambios */
+  nav {
+      display: block;
+      text-align: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  li a{
+      font-size: 25px;
+  }
+
+  .profile-img{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin: 0 0 0 0;
+}
+  div a img {
+    width: 60px;
+    height: 60px;
+    margin: 5px 10px 0 0;
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+
+  .profile {
+    width: 100%; 
+    text-align: center;
+  }
+
+  .main {
+    width: 100%; 
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .mov-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .body-main {
+    font-size: 14px;
+  }
+
+  hr {
+      width: 90%;
+      text-align: center;
+  }
   
+  nav {
+      display: block;
+      text-align: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  li a{
+      font-size: 25px;
+  }
+
+  .profile-img{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin: 0 0 0 0;
+}
+  div a img {
+    width: 60px;
+    height: 60px;
+    margin: 5px 10px 0 0;
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+
+  .profile {
+    width: 100%; 
+    text-align: center;
+  }
+
+  .main {
+    width: 100%; 
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .mov-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:414px){
+  .body-main {
+    font-size: 14px;
+  }
+
+  hr {
+      width: 90%;
+      text-align: center;
+  }
   
+  nav {
+      display: block;
+      text-align: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  li a{
+      font-size: 25px;
+  }
+
+  .profile-img{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin: 0 0 0 0;
+}
+  div a img {
+    width: 60px;
+    height: 60px;
+    margin: 5px 10px 0 0;
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+
+  .profile {
+    width: 100%; 
+    text-align: center;
+  }
+
+  .main {
+    width: 100%; 
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .mov-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:1024px){
+  .body-main {
+    font-size: 14px;
+  }
+
+  hr {
+      width: 90%;
+      text-align: center;
+  }
+  
+  nav {
+      display: block;
+      text-align: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  li a{
+      font-size: 25px;
+  }
+
+  .profile-img{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin: 0 0 0 0;
+}
+  div a img {
+    width: 60px;
+    height: 60px;
+    margin: 5px 10px 0 0;
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+
+  .profile {
+    width: 100%; 
+    text-align: center;
+  }
+
+  .main {
+    width: 100%; 
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .mov-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:414px){
+  .body-main {
+    font-size: 14px;
+  }
+
+  hr {
+      width: 90%;
+      text-align: center;
+  }
+  
+  nav {
+      display: block;
+      text-align: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  li a{
+      font-size: 25px;
+  }
+
+  .profile-img{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin: 0 0 0 0;
+}
+  div a img {
+    width: 60px;
+    height: 60px;
+    margin: 5px 10px 0 0;
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+
+  .profile {
+    width: 100%; 
+    text-align: center;
+  }
+
+  .main {
+    width: 100%; 
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .mov-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:280px){
+  .body-main {
+    font-size: 14px;
+  }
+
+  hr {
+      width: 90%;
+      text-align: center;
+  }
+  
+  nav {
+      display: block;
+      text-align: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  li a{
+      font-size: 25px;
+  }
+
+  .profile-img{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin: 0 0 0 0;
+}
+  div a img {
+    width: 60px;
+    height: 60px;
+    margin: 5px 10px 0 0;
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+
+  .profile {
+    width: 100%; 
+    text-align: center;
+  }
+
+  .main {
+    width: 100%; 
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .mov-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:1350px){
+  .body-main {
+    font-size: 14px;
+  }
+
+  hr {
+      width: 90%;
+      text-align: center;
+  }
+  
+  nav {
+      display: block;
+      text-align: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  li a{
+      font-size: 25px;
+  }
+
+  .profile-img{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin: 0 0 0 0;
+}
+  div a img {
+    width: 60px;
+    height: 60px;
+    margin: 5px 10px 0 0;
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+
+  .profile {
+    width: 100%; 
+    text-align: center;
+  }
+
+  .main {
+    width: 100%; 
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .mov-text {
+    font-size: 18px;
+  }
+}

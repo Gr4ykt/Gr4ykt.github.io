@@ -22,13 +22,17 @@ h1, h2, h3, h4, h5, h6 {
 .title-page a {
     padding: 20px 0;
     font-size: 60px;
-    background-color: rgb(17, 17, 17); /* Color de fondo verde */
-    /* border: 1px solid #00AA00;  Borde verde más oscuro */
-    /* box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);  Sombra difusa verde */
+    background-color: rgb(17, 17, 17);
     text-align: center;
-    -webkit-text-fill-color: #00FF00; /* Color de relleno de texto verde */
-    -webkit-text-stroke: 2px #00AA00; /* Borde del texto más oscuro */
+    -webkit-text-fill-color: #00FF00;
+    -webkit-text-stroke: 2px #00AA00;
+    transition: text-shadow 0.5s; /* Agregar una transición suave a text-shadow */
 }
+
+.title-page a:hover {
+    text-shadow: 0 0 5px #00FF00; /* Cambiar la sombra del texto al pasar el cursor sobre el título */
+}
+
 
 /* Cambia el cursor a un estilo de terminal (opcional) 
 .title-page a:hover {
@@ -64,12 +68,14 @@ nav a {
 .horizontal-item a {
     text-decoration: none;
     color: #00FF00;
+    transition: color 0.2s; /* Agregar una transición de color suave */
 }
 
 .horizontal-item a:hover {
     text-decoration: underline;
-    color: none;
+    color: #00FF00; /* Cambiar el color al pasar el cursor sobre el enlace */
 }
+
 
 /* PERFIL */
 .profile-text{
@@ -103,11 +109,17 @@ a{
     color: rgb(48, 158, 48);
 }
 div a img {
-    width: 30px;
-    height: 30px;
-    margin: 5px 10px 0 0; /* Margen a la derecha de 10px, sin margen en otros lados */
+    width: 45px;
+    height: 45px;
+    margin: 5px 10px 0 0;
     display: inline-block;
-}
+    transition: transform 0.2s; /* Agregar una transición suave */
+  }
+  
+  div a img:hover {
+    transform: scale(1.3); /* Hacer que la imagen sea un 10% más grande al pasar el cursor sobre ella */
+  }
+  
 
 
 /* INFORMACION DINAMICA */
