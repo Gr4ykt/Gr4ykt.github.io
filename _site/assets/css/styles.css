@@ -163,10 +163,12 @@ footer {
 /* Personaliza el estilo de la tabla */
 .rouge-table {
   margin: 5px;
+  font-size: 20px;
 }
 
 /* Personaliza el estilo de las celdas */
 .gutter {
+  color: #616161;
   background-color: #272822;
   border-right: 1px solid #616161;
   padding: 0 5px 0 0;
