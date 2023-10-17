@@ -107,6 +107,7 @@
     padding-top: 5%;
     padding-right: 5%;
     padding-left: 5%;
+    display: block;
   }
 
   .mov-text {
@@ -116,6 +117,7 @@
     font-size: 30px;
   }
 }
+
 
 /* Estilos para impresión (hojas de estilo para impresión) */
 @media print {

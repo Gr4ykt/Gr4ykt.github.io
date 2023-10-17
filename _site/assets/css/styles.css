@@ -88,11 +88,11 @@ nav a {
   display: inline-block; /* Agregamos esta propiedad */
   width: 25%;
   padding: 20px;
+  padding-bottom: 6%;
   padding-left: 2%;
-  box-sizing: border-box;
   background-color: rgb(17, 17, 17);
   text-align: center;
-  position: sticky;
+  position: static;
   vertical-align: auto; /* Alineamos el contenido en la parte superior */
 }
 
@@ -121,6 +121,7 @@ div a img:hover {
 
 /* INFORMACION DINAMICA */
 .main {
+  display: inline-block;
   width: 75%;
   padding: 0px;
   padding-right: 8%;
@@ -131,7 +132,7 @@ div a img:hover {
 .mov-text {
   text-align: justify;
   align-items: center;
-  color: rgb(189, 189, 189);
+  color: rgb(219, 219, 219);
   margin: 15px 0px 0 0;
   font-size: 20px;
   margin-top: -14px;
@@ -142,7 +143,6 @@ div a img:hover {
 footer {
   clear: both;
   float: center;
-  margin-top: 0%;
   box-sizing: border-box;
   width: 90%;
   margin-left: 5%;
@@ -273,6 +273,7 @@ td.code {
     padding-top: 5%;
     padding-right: 5%;
     padding-left: 5%;
+    display: block;
   }
   .mov-text {
     font-size: 30px;
