@@ -112,7 +112,7 @@ div a img {
   height: 45px;
   margin: 5px 10px 0 0;
   display: inline-block;
-  transition: transform 0.2s; /* Agregar una transición suave */
+  transition: transform 0.2s;
 }
 
 div a img:hover {
@@ -125,6 +125,7 @@ div a img:hover {
   width: 75%;
   padding: 0px;
   padding-right: 8%;
+  padding-bottom: 45px;
   float: right;
   background-color: rgb(17, 17, 17);
 }
@@ -280,6 +281,9 @@ td.code {
   }
   .rouge-table {
     font-size: 30px;
+  }
+  footer {
+    padding: 5px;
   }
 }
 /* Estilos para impresión (hojas de estilo para impresión) */

@@ -1,6 +1,7 @@
 /* Estilos para dispositivos pequeños (teléfonos) */
 @media screen and (max-width: 480px) {
   /* AQUÍ VA EL CONTENIDO PARA DISPOSITIVOS PEQUEÑOS */
+
   .body-main {
     font-size: 20px;
   }
@@ -115,6 +116,9 @@
   }
   .rouge-table {
     font-size: 30px;
+  }
+  footer{
+    padding: 5px;
   }
 }
 
