@@ -1,0 +1,16 @@
+---
+title: graykt@Internet:~$ ./Gr4y_kt
+layout: default
+author: Gr4ykt
+---
+
+<h4>Posteos del blog</h4>
+<hr style="border-color: rgb(65, 65, 65);">
+<ul>
+    {% for post in site.posts %}
+        <li style="list-style: none;">
+            <h2 style="text-align: justify;"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {{ post.description }}
+        </li>
+    {% endfor %}
+</ul>
