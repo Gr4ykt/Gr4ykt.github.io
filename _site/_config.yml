@@ -1,0 +1,10 @@
+# BASE
+title: graykt@Internet:~$ ./Gr4y_kt
+author: Gr4ykt
+baseurl: ""
+url: ""
+
+#RRSS
+github_username: Gr4ykt
+twitter_username: thorfinn_san
+htb_profile: "351582" #THIS IS A STRING, NOT INT

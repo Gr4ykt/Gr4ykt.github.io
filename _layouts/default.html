@@ -1,9 +1,10 @@
 <html> 
  <head> 
    <meta charset="utf-8"> 
-   <title>{{ page.title }}</title> 
+   <title>{{ site.title }}</title> 
    <link rel="stylesheet" href="assets/css/styles.css">
  </head> 
+
  <body class="body-main">
     <!-- Caja 1: navegacion -->
     {% include navigation.html %}  
@@ -11,17 +12,17 @@
     <!-- Caja 2: perfil -->
     {% include profile.html %}
 
+    <!-- Caja 3: contenido dinamico -->
     <section class="main">
       <div>
         <div class="mov-text">
-          <!-- Caja 3: contenido dinamico -->
           <aside>{{ content }}</aside>  
         </div>
       </div>
     </section>
 
     <!-- Caja 4: pie de pagina-->
-    {% include footer.html %}  
+    {% include footer.html %}
 
     <!-- Scripts js -->
     <script src="assets/js/vendor/jquery.js"></script>
